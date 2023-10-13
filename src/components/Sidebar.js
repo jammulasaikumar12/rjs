@@ -6,8 +6,8 @@ import {
   ModeNight,
   Person,
   Settings,
-  Storefront,
 } from "@mui/icons-material";
+import InfoIcon from '@mui/icons-material/Info';
 import {
   Box,
   List,
@@ -48,14 +48,7 @@ import React from "react";
               <ListItemText primary="Groups" />
             </ListItemButton>
           </ListItem>
-          <ListItem disablePadding>
-            <ListItemButton component="a" href="#simple-list">
-              <ListItemIcon>
-                <Storefront />
-              </ListItemIcon>
-              <ListItemText primary="Marketplace" />
-            </ListItemButton>
-          </ListItem>
+          
           <ListItem disablePadding>
             <ListItemButton component="a" href="#simple-list">
               <ListItemIcon>
@@ -73,11 +66,19 @@ import React from "react";
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
-            <ListItemButton component="a" href="#simple-list">
+            <ListItemButton component="a" href="https://mui.com/material-ui/material-icons/?query=about">
               <ListItemIcon>
                 <AccountBox />
               </ListItemIcon>
               <ListItemText primary="Profile" />
+            </ListItemButton>
+          </ListItem>
+          <ListItem disablePadding>
+            <ListItemButton component="a" href="#simple-list">
+              <ListItemIcon>
+                <InfoIcon/>
+              </ListItemIcon>
+              <ListItemText primary="About" />
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
